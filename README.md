@@ -36,3 +36,28 @@ GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y,
   Train Score:  0.9746924925774071
   Test Score:  0.9704447632711621
   
+
+
+### Match Pytorch:
+
+- Dataset with joined teams(x = team 1, y = team 2):
+matchID, WIN, GOLDEARNED_x, TOTALMINIONSKILLED_x, KILLS_x, ASSISTS_x, DEATHS_x, VISIONSCORE_x, TOTALDAMAGEDEALTTOCHAMPIONS_x, 
+GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y, TOTALDAMAGEDEALTTOCHAMPIONS_y
+
+    Epoch [1/10], Loss: 0.0250
+    Epoch [2/10], Loss: 0.0186
+    Epoch [3/10], Loss: 0.0025
+    Epoch [4/10], Loss: 0.0026
+    Epoch [5/10], Loss: 0.0052
+    Epoch [6/10], Loss: 0.0008
+    Epoch [7/10], Loss: 0.0012
+    Epoch [8/10], Loss: 0.0005
+    Epoch [9/10], Loss: 0.0015
+    Epoch [10/10], Loss: 0.0006
+    
+    Accuracy: 99.91%
+  
+
+```python
+
+```
