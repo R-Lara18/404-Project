@@ -6,8 +6,8 @@ https://www.kaggle.com/datasets/jasperan/league-of-legends-1v1-matchups-results?
 
 ### Individual Teams Perceptron:
   
-  Train Score:  0.6974409727131344
-  Test Score:  0.7024390243902439
+  * Train Score:  0.6974409727131344
+  * Test Score:  0.7024390243902439
   
 ### Match Perceptron:
 
@@ -15,16 +15,16 @@ https://www.kaggle.com/datasets/jasperan/league-of-legends-1v1-matchups-results?
 matchID, WIN, GOLDEARNED_x, TOTALMINIONSKILLED_x, KILLS_x, ASSISTS_x, DEATHS_x, VISIONSCORE_x, TOTALDAMAGEDEALTTOCHAMPIONS_x, 
 GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y, TOTALDAMAGEDEALTTOCHAMPIONS_y
 
-  Train Score:  0.959705923936095
-  Test Score:  0.9595408895265424
+  * Train Score:  0.959705923936095
+  * Test Score:  0.9595408895265424
   
 - Dataset with joined teams(x = team 1, y = team 2) and ratio features(21 total features):
 matchID, WIN, GOLDEARNED_x, TOTALMINIONSKILLED_x, KILLS_x, ASSISTS_x, DEATHS_x, VISIONSCORE_x, TOTALDAMAGEDEALTTOCHAMPIONS_x, 
 GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y, TOTALDAMAGEDEALTTOCHAMPIONS_y
 GOLDEARNED_ratio, TOTALMINIONSKILLED_ratio, KILLS_ratio, ASSISTS_ratio, DEATHS_ratio, VISIONSCORE_ratio, TOTALDAMAGEDEALTTOCHAMPIONS_ratio
   
-  Train Score:  0.968
-  Test Score:  0.9669373549883991
+  * Train Score:  0.968
+  * Test Score:  0.9669373549883991
   
 ### Match Decision Tree:
 
@@ -32,15 +32,16 @@ GOLDEARNED_ratio, TOTALMINIONSKILLED_ratio, KILLS_ratio, ASSISTS_ratio, DEATHS_r
 matchID, WIN, GOLDEARNED_x, TOTALMINIONSKILLED_x, KILLS_x, ASSISTS_x, DEATHS_x, VISIONSCORE_x, TOTALDAMAGEDEALTTOCHAMPIONS_x, 
 GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y, TOTALDAMAGEDEALTTOCHAMPIONS_y
 
-  Train Score:  1.0
-  Test Score:  0.959106728538283
+  * Train Score:  1.0
+  * Test Score:  0.959106728538283
   
 - Dataset with joined teams(x = team 1, y = team 2) and ratio features(21 total features):
 matchID, WIN, GOLDEARNED_x, TOTALMINIONSKILLED_x, KILLS_x, ASSISTS_x, DEATHS_x, VISIONSCORE_x, TOTALDAMAGEDEALTTOCHAMPIONS_x, 
 GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y, TOTALDAMAGEDEALTTOCHAMPIONS_y
 GOLDEARNED_ratio, TOTALMINIONSKILLED_ratio, KILLS_ratio, ASSISTS_ratio, DEATHS_ratio, VISIONSCORE_ratio, TOTALDAMAGEDEALTTOCHAMPIONS_ratio
-  Train Score:  1.0
-  Test Score:  0.9588167053364269
+  
+  * Train Score:  1.0
+  * Test Score:  0.9588167053364269
 
 ### Match Logistic Regression:
 
