@@ -8,6 +8,8 @@ https://www.kaggle.com/datasets/jasperan/league-of-legends-1v1-matchups-results?
   
   * Train Score:  0.6974409727131344
   * Test Score:  0.7024390243902439
+  * Recall Score (Test): 0.8963380281690141
+  * F1 Score (Test): 0.754207158094335 
   
 ### Match Perceptron:
 
@@ -17,6 +19,8 @@ GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y,
 
   * Train Score:  0.959705923936095
   * Test Score:  0.9595408895265424
+  * Recall Score (Test): 0.9325084364454443
+  * F1 Score (Test): 0.9592131906277119
   
 - Dataset with joined teams(x = team 1, y = team 2) and ratio features(21 total features):
 matchID, WIN, GOLDEARNED_x, TOTALMINIONSKILLED_x, KILLS_x, ASSISTS_x, DEATHS_x, VISIONSCORE_x, TOTALDAMAGEDEALTTOCHAMPIONS_x, 
@@ -25,6 +29,8 @@ GOLDEARNED_ratio, TOTALMINIONSKILLED_ratio, KILLS_ratio, ASSISTS_ratio, DEATHS_r
   
   * Train Score:  0.968
   * Test Score:  0.9669373549883991
+  * Recall Score (Test):  0.9821634062140391
+  * F1 Score (Test):  0.967687074829932
   
 ### Match Decision Tree:
 
@@ -34,6 +40,8 @@ GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y,
 
   * Train Score:  1.0
   * Test Score:  0.959106728538283
+  * Recall Score(test):  0.9313835770528683
+  * F1 Score(test):  0.928771733034212
   
 - Dataset with joined teams(x = team 1, y = team 2) and ratio features(21 total features):
 matchID, WIN, GOLDEARNED_x, TOTALMINIONSKILLED_x, KILLS_x, ASSISTS_x, DEATHS_x, VISIONSCORE_x, TOTALDAMAGEDEALTTOCHAMPIONS_x, 
@@ -42,6 +50,8 @@ GOLDEARNED_ratio, TOTALMINIONSKILLED_ratio, KILLS_ratio, ASSISTS_ratio, DEATHS_r
   
   * Train Score:  1.0
   * Test Score:  0.9588167053364269
+  * Recall Score(test):  0.9585730724971231
+  * F1 Score(test):  0.9594010941549093
 
 ### Match Logistic Regression:
 
@@ -51,6 +61,18 @@ GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y,
 
   Train Score:  0.9746924925774071
   Test Score:  0.9704447632711621
+  * Recall Score(test):  0.9707536557930259
+  * F1 Score(test):  0.9707536557930259
+
+- Dataset with joined teams(x = team 1, y = team 2) and ratio features(21 total features):
+matchID, WIN, GOLDEARNED_x, TOTALMINIONSKILLED_x, KILLS_x, ASSISTS_x, DEATHS_x, VISIONSCORE_x, TOTALDAMAGEDEALTTOCHAMPIONS_x, 
+GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y, TOTALDAMAGEDEALTTOCHAMPIONS_y
+GOLDEARNED_ratio, TOTALMINIONSKILLED_ratio, KILLS_ratio, ASSISTS_ratio, DEATHS_ratio, VISIONSCORE_ratio, TOTALDAMAGEDEALTTOCHAMPIONS_ratio
+  
+  * Train Score:  1.0
+  * Test Score:  0.959106728538283
+  * Recall Score(test):  0.9585730724971231
+  * F1 Score(test):  0.9594010941549093
   
 
 
@@ -72,6 +94,7 @@ GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y,
     Epoch [10/10], Loss: 0.0006
     
     Accuracy: 99.91%
+    Recall on the validation set: 1.0000
   
 
 ```python
