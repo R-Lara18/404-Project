@@ -95,6 +95,7 @@ GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y,
     
     Accuracy: 99.95%
     Recall on the validation set: 1.0000
+    F1 Score on the validation set: 0.9994
 
 - Dataset with joined teams(x = team 1, y = team 2) and ratio features(21 total features):
 matchID, WIN, GOLDEARNED_x, TOTALMINIONSKILLED_x, KILLS_x, ASSISTS_x, DEATHS_x, VISIONSCORE_x, TOTALDAMAGEDEALTTOCHAMPIONS_x, 
@@ -113,6 +114,7 @@ GOLDEARNED_y, TOTALMINIONSKILLED_y, KILLS_y, ASSISTS_y, DEATHS_y, VISIONSCORE_y,
     
     Accuracy: 99.81%
     Recall on the validation set: 1.0000
+    F1 Score on the validation set: 0.9994
 
 ```python
 
